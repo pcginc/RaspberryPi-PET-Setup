@@ -3,7 +3,7 @@ package com.ociweb.iot.lightblink;
 import static com.ociweb.iot.grove.simple_digital.SimpleDigitalTwig.Button;
 import static com.ociweb.iot.grove.simple_digital.SimpleDigitalTwig.LED;
 import static com.ociweb.iot.maker.Port.D3;
-import static com.ociweb.iot.maker.Port.D4;
+import static com.ociweb.iot.maker.Port.D2;
 
 import com.ociweb.gl.api.GreenCommandChannel;
 import com.ociweb.iot.maker.FogApp;
@@ -15,7 +15,7 @@ import com.ociweb.iot.maker.Port;
 
 public class IoTApp implements FogApp {
            
-	public static Port LED_PORT = D4;
+	public static Port LED_PORT = D3;
 	
     public static void main( String[] args) {
         FogRuntime.run(new IoTApp());
@@ -24,7 +24,7 @@ public class IoTApp implements FogApp {
     @Override
     public void declareConnections(Hardware hardware) {
         hardware.connect(LED, LED_PORT);
-        hardware.connect(Button, D3);        
+        hardware.connect(Button, D2);        
     }
 
     @Override
