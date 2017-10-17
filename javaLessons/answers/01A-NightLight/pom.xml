@@ -15,8 +15,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.ociweb</groupId>
-			<artifactId>PronghornIoT</artifactId>
-			<version>[0.0.3,0.1.0)</version>
+			<artifactId>FogLight</artifactId>
+			<version>[0.1.3-SNAPSHOT,0.2.0)</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
