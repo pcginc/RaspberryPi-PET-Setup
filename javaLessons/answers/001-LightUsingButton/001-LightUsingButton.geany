@@ -31,10 +31,10 @@ last_dir=/home/pi/javaLessons/answers/001-LightUsingButton
 
 [build-menu]
 JavaFT_00_LB=_Compile
-JavaFT_00_CM=mvn compile --offline -quiet
+JavaFT_00_CM=mvn compile
 JavaFT_00_WD=%p
 JavaFT_01_LB=_Install
-JavaFT_01_CM=mvn install --offline -quiet
+JavaFT_01_CM=mvn install
 JavaFT_01_WD=%p
 EX_00_LB=_Execute
 EX_00_CM=java -jar  "target/001-LightUsingButton.jar"
